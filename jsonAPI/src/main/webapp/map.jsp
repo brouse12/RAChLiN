@@ -77,6 +77,9 @@
 
         console.log(x);
         var coord = raw_data[x]["coord"];
+
+        //var iconColor = raw_data[x]["icon_color"];
+
         lat_lon = coord.replace('(', '').replace(')', '').split(',');
         latitutde = Number(lat_lon[0]);
         longitude = Number(lat_lon[1]);
