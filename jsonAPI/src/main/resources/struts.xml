@@ -13,11 +13,11 @@
             <result>/index.jsp</result>
         </action>
 
-        <action name="map" class="com.jsonAPI.AisDecodeMessageStore.action.MapAction">
+        <action name="map" class="io.seeport.jsonAPI.action.MapAction">
             <result name="success">/map.jsp</result>
         </action>
 
-        <action name="time" class="com.jsonAPI.AisDecodeMessageStore.action.TimeAction">
+        <action name="time" class="io.seeport.jsonAPI.action.TimeAction">
             <result name="success">/map.jsp</result>
         </action>
 
